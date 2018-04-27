@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Star-Wars-RPG</title>
+
+    <!-- add link to bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -68,7 +73,7 @@
     <div id="enemies">
 
         <!-- heading for enemies -->
-        <p id="enemies">Enemies AVailable to Attack</p>
+        <p id="enemies">Enemies Available to Attack</p>
 
         <!-- three boxes to contain enemies available to attack -->
 
@@ -91,11 +96,37 @@
     <!-- SECTION fight section --> 
 
         <p id="fight">Fight Section</p>
-        <!-- bootstrap button to be inserted "Attack" -->
+        <button type="button" class="btn btn-primary">Attack</button>
 
     <!-- SECTION ENDS fight section -->
 
-    <!--  -->
+    <!-- SECTION defender -->
+    <div id="defender">
+        <!-- heading for defender -->
+        <p id="defender">Defender</p>
+
+        <!-- one box to contain the defender -->
+        <div id="defenderbox">
+        <!-- empty available space -->
+        </div>
+    </div>
+    <!-- SECTION END defender -->
+
+    <!-- results container -->
+
+        <p id="yourattack">You attacked [defender] for [random] damage.</p>
+        <p id="attackagainstyou">[Defender] attacked you back for [random] damage.</p>
+        <p id="defeatmessage">You have defeated [Defender], you can choose to fight another enemy.</p>
+        <p id="winmessage">You win!!! GAME OVER!!!</p>
+
+    <!-- end results container -->
+
+    <!-- restart -->
+
+    <button type="button" class="btn btn-primary">Restart</button>
+
+    <!-- end restart -->
+
    
 </body>
 </html>
