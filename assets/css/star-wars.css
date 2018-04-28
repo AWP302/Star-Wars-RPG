@@ -5,11 +5,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     font-family: fantasy;
-     
+    background-color: aquamarine;
+
+}
+
+#mainHeading {
+
+    font-size: 30px;
+    text-align: right;
+}
     
-}
-
-header {
-
-    font
-}
