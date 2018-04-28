@@ -1,4 +1,15 @@
+
 body {
 
-    background-image: <img src="background.jpg" class="background-image" alt="Background">
+    /* background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: fantasy;
+     
+    
+}
+
+header {
+
+    font
 }
