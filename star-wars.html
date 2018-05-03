@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/star-wars.css"/>
 
 </head>
+
+<div id="page">
 <body>
     
     <!-- main heading for game -->
@@ -23,14 +25,16 @@
 
     <!-- SECTION options available to be chosen -->
     <div id="options">
+        <div id="OptionsRow">
+        <div id="optiponsCol1">   
         <!-- set of four boxes to contain the options available to be chosen -->
-        <div id="optionsbox1">
+        <div id="optionsBox1">
             <p>Obi-Won Kenobi</p>
             <!-- image to be inserted -->
             <img/>
             <!-- random number to be generated below -->
             <!-- Add ids to all <p>'s' -->
-            <p></p>
+            <p id= "ObiWonPower"></p>
         </div>
 
         <div id="optionsbox2">
@@ -38,36 +42,38 @@
             <!-- image to be inserted -->
             <img/>
             <!-- random number to be generated below -->
-            <p></p>
+            <p id="LukeSkywalkerPower"></p>
         </div>
 
-        <div id="optionsbox3">
+        <div id="optionsBox3">
             <p>Darth Sidious</p>
             <!-- image to be inserted -->
             <img/>
             <!-- random number to be generated below -->
-            <p></p>
+            <p id="DarthSidiousPower"></p>
         </div>
 
-        <div id="optionsbox4">
+        <div id="optionsBox4">
             <p>Darth Maul</p>
             <!-- image to be inserted -->
             <img/>
             <!-- random number to be generated below -->
-            <p></p>
+            <p id="DarthMaulPower"></p>
+            </div>
+            </div>
+        </div>
+        <div class="optiponsCol2">
+    <!-- SECTION ENDS options available to be chosen -->
         </div>
 
-    <!-- SECTION ENDS options available to be chosen -->
-    <div>
-
     <!-- SECTION your character -->
-    <div id="yourcharacter">
+    <div id="yourCharacter">
 
         <!-- heading for your character -->
-        <p id="yourcharacter">Your Character</p>
+        <p id="yourCharacterHeading">Your Character</p>
 
         <!-- one box to contain the character -->
-        <div id="yourcharacterbox">
+        <div id="yourCharacterBox">
         <!-- empty available space -->
         </div>
     </div>
@@ -79,19 +85,19 @@
     <div id="enemies">
 
         <!-- heading for enemies -->
-        <p id="enemies">Enemies Available to Attack</p>
+        <p id="enemiesHeading">Enemies Available to Attack</p>
 
         <!-- three boxes to contain enemies available to attack -->
 
-        <div id="enemiesbox1">
+        <div id="enemiesBox1">
         <!-- empty available space -->
         </div>
 
-        <div id="enemiesbox2">
+        <div id="enemiesBox2">
         <!-- empty available space -->
         </div>
 
-        <div id="enemiesbox3">
+        <div id="enemiesBox3">
         <!-- empty available space -->
         </div>
     
@@ -99,20 +105,21 @@
 
     <!-- SECTION ENDS enemies available to attack -->
 
-    <!-- SECTION fight section --> 
+    <!-- SECTION attack section --> 
+    <div id="attack">
+        <p id="attackHeading">Fight Section</p>
 
-        <p id="fight">Fight Section</p>
-        <button type="button" class="btn btn-primary">Attack</button>
+        <button id="attackButtom"> type="button" class="btn btn-primary"Attack</button>
 
     <!-- SECTION ENDS fight section -->
-
+</div>
     <!-- SECTION defender -->
     <div id="defender">
         <!-- heading for defender -->
-        <p>Defender</p>
+        <p id="defenderHeading">Defender</p>
 
         <!-- one box to contain the defender -->
-        <div id="defenderbox">
+        <div id="defenderBox">
         <!-- empty available space -->
         </div>
     </div>
@@ -120,19 +127,24 @@
 
     <!-- results container -->
 
-        <p id="yourattack">You attacked [defender] for [random] damage.</p>
-        <p id="attackagainstyou">[Defender] attacked you back for [random] damage.</p>
-        <p id="defeatmessage">You have defeated [Defender], you can choose to fight another enemy.</p>
-        <p id="winmessage">You win!!! GAME OVER!!!</p>
+    <div id="resultsText>">
+
+        <p id="yourAttack">You attacked [defender] for [random] damage.</p>
+        <p id="attacksAgainstYou">[Defender] attacked you back for [random] damage.</p>
+        <p id="defeatMessage">You have defeated [Defender], you can choose to fight another enemy.</p>
+        <p id="winMessage">You win!!! GAME OVER!!!</p>
 
     <!-- end results container -->
+    </div>
 
     <!-- restart -->
+    <div id="restart">
 
     <button type="button" class="btn btn-primary">Restart</button>
 
     <!-- end restart -->
-
+    </div>
+</div>
    
 </body>
 </html>
