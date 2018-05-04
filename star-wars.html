@@ -26,39 +26,39 @@
     <!-- SECTION options available to be chosen -->
    <br>       
 
-        
+      
         <!-- set of four boxes to contain the options available to be chosen -->
 
     <div id="optionsContainer">
         <div id="optionsBox1">
             <p>Obi-Won Kenobi</p>
             <!-- image to be inserted -->
-            <img/>
+            <img src="obi.jpg" width="75" height="75"/>
             <!-- random number to be generated below -->
             <!-- Add ids to all <p>'s' -->
-            <p id= "ObiWonPower"></p>
+            <p id= "ObiWonPower">[ ]</p>
         </div>
 
         <div id="optionsBox2">
             <p>Luke Skywalker</p>
-           <img/>
-            <p id="LukeSkywalkerPower"></p>
+           <img src="luke.jpg" width="75" height="75"/>
+            <p id="LukeSkywalkerPower">[ ]</p>
         </div>
 
         <div id="optionsBox3">
             <p>Darth Sidious</p>
             <!-- image to be inserted -->
-            <img/>
+            <img src="darthsidious.jpg" width="75" height="75"/>
             <!-- random number to be generated below -->
-            <p id="DarthSidiousPower"></p>
+            <p id="DarthSidiousPower">[ ]</p>
         </div>
 
         <div id="optionsBox4">
             <p>Darth Maul</p>
             <!-- image to be inserted -->
-            <img/>
+            <img src="darthmaul.jpg" width="75" height="75"/>
             <!-- random number to be generated below -->
-            <p id="DarthMaulPower"></p>
+            <p id="DarthMaulPower">[ ]</p>
         </div>
 
     </div>
@@ -73,11 +73,11 @@
 
         
     <!-- SECTION your character -->
-
-    <!-- heading for your character -->
+<!-- heading for your character -->
     <p id="yourCharacterHeading">Your Character</p>
 
-    <br>
+    <br>   
+   
     
     <div id="yourCharacterContainer">
    
@@ -96,7 +96,7 @@
     <p id="enemiesHeading">Enemies Available to Attack</p>
 
     <br>
-    
+
     <div id="enemies">
 
         <!-- heading for enemies -->
@@ -118,47 +118,65 @@
     
     </div>
 
+    <br>
+
     <!-- SECTION ENDS enemies available to attack -->
 
     <!-- SECTION attack section --> 
-    <div id="attack">
-        <p id="attackHeading">Fight Section</p>
+    
+    <p id="attackHeading">Fight Section</p>
 
-        <button id="attackButtom"> type="button" class="btn btn-primary"Attack</button>
+    <br>
+    
+    <!-- <div id="attack"> -->
+        
+
+    <button type="button" id="btn btn-primary-1">Attack</button>
 
     <!-- SECTION ENDS fight section -->
-</div>
+
+<!-- </div> -->
+
+<br><br>
+
+<p id="defenderHeading">Defender</p>
+
+<br>
     <!-- SECTION defender -->
     <div id="defender">
         <!-- heading for defender -->
-        <p id="defenderHeading">Defender</p>
+        
 
         <!-- one box to contain the defender -->
         <div id="defenderBox">
         <!-- empty available space -->
         </div>
     </div>
+    
+    <br>
     <!-- SECTION END defender -->
 
     <!-- results container -->
 
-    <div id="resultsText>">
+   
 
         <p id="yourAttack">You attacked [defender] for [random] damage.</p>
         <p id="attacksAgainstYou">[Defender] attacked you back for [random] damage.</p>
         <p id="defeatMessage">You have defeated [Defender], you can choose to fight another enemy.</p>
         <p id="winMessage">You win!!! GAME OVER!!!</p>
 
+
+        <br>
     <!-- end results container -->
-    </div>
+    
 
     <!-- restart -->
-    <div id="restart">
+    
 
-    <button type="button" class="btn btn-primary">Restart</button>
+    <button type="button" id="btn btn-primary-2">Restart</button>
 
     <!-- end restart -->
-    </div>
+  
 </div>
    
 </body>

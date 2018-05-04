@@ -45,9 +45,10 @@ table {
 
 body {
 
-    /* background-image: url("../images/background.jpg");
+    /* background-image: url("../images/background.jpg"); */
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: aquamarine;
 
@@ -67,6 +68,7 @@ body {
 
     font-size: 30px;
     text-align: right;
+    color: red;
 }
 
 #optionsContainer {
@@ -82,6 +84,7 @@ body {
     height: 120px;
     float: left;
     margin: 1%;
+    text-align: center
 }
 
 #optionsBox1 {
@@ -101,25 +104,96 @@ body {
     background-color: fuchsia;
     
 }
+#yourCharacterHeading {
+    font-size: 30px;
+    color: red;
+}
 
 #yourCharacterContainer {
     height: 140px;
-    background-color: black;
+        
 }
 
-
-#yourCharacterHeading {
-    font-size: 30px;
-}
 
 #yourCharacterBox {
     width: 15%;
     height: 120px;
     float: left;
     margin: 1%;
-    background-color: bisque
+       
 }
 
 #enemiesHeading {
     font-size: 30px;
+    color: red;
+    
 }
+
+#enemies {
+    height: 140px;
+    background-color: black;
+    display: none;
+}
+
+#enemiesBox1,
+#enemiesBox2,
+#enemiesBox3 {
+    width: 15%;
+    height: 120px;
+    float: left;
+    margin: 1%;
+   display: none;
+}
+
+#attackHeading {
+    font-size: 30px;
+    color: red;
+  
+}
+
+#defenderHeading {
+    font-size: 30px;
+    color: red;
+
+}
+
+#defender {
+    height: 140px;
+    background-color: black; 
+    display: none; 
+}
+
+#defenderBox {
+    width: 15%;
+    height: 120px;
+    float: left;
+    margin: 1%;
+    display: none;
+}
+
+#yourAttack {
+    display: none;
+}
+
+#attacksAgainstYou {
+    display: none;
+}
+
+#defeatMessage {
+    display: none;
+}
+
+#winMessage {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
