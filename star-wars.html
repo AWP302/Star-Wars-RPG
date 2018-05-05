@@ -13,7 +13,9 @@
 
     <!-- add link to CSS file -->
 
-    <link rel="stylesheet" type="text/css" href="assets/css/star-wars.css"/>
+    <link rel="stylesheet" type="text/css" href="star-wars.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -30,36 +32,40 @@
         <!-- set of four boxes to contain the options available to be chosen -->
 
     <div id="optionsContainer">
-        <div id="optionsBox1">
+        <button id="optionsBox1">
             <p>Obi-Won Kenobi</p>
             <!-- image to be inserted -->
             <img src="obi.jpg" width="75" height="75"/>
             <!-- random number to be generated below -->
             <!-- Add ids to all <p>'s' -->
             <p id= "ObiWonPower">[ ]</p>
-        </div>
+            </button>
 
-        <div id="optionsBox2">
+            
+                
+              
+
+        <button id="optionsBox2">
             <p>Luke Skywalker</p>
            <img src="luke.jpg" width="75" height="75"/>
             <p id="LukeSkywalkerPower">[ ]</p>
-        </div>
+        </button>
 
-        <div id="optionsBox3">
+        <button id="optionsBox3">
             <p>Darth Sidious</p>
             <!-- image to be inserted -->
             <img src="darthsidious.jpg" width="75" height="75"/>
             <!-- random number to be generated below -->
             <p id="DarthSidiousPower">[ ]</p>
-        </div>
+        </button>
 
-        <div id="optionsBox4">
+        <button id="optionsBox4">
             <p>Darth Maul</p>
             <!-- image to be inserted -->
             <img src="darthmaul.jpg" width="75" height="75"/>
             <!-- random number to be generated below -->
             <p id="DarthMaulPower">[ ]</p>
-        </div>
+        </button>
 
     </div>
 
@@ -131,7 +137,9 @@
     <!-- <div id="attack"> -->
         
 
-    <button type="button" id="btn btn-primary-1">Attack</button>
+    <button id="attackButton">
+        <p>Attack</p>
+    </button>
 
     <!-- SECTION ENDS fight section -->
 
@@ -173,7 +181,9 @@
     <!-- restart -->
     
 
-    <button type="button" id="btn btn-primary-2">Restart</button>
+    <button id="restartButton">
+    <p>Restart</p>
+    </button>
 
     <!-- end restart -->
   

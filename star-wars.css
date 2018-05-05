@@ -73,7 +73,7 @@ body {
 
 #optionsContainer {
     height: 140px;
-    background-color: black;
+    
 }
 #optionsBox1,
 #optionsBox2,
@@ -84,26 +84,11 @@ body {
     height: 120px;
     float: left;
     margin: 1%;
-    text-align: center
+    text-align: center;
+    background-color: white;
 }
 
-#optionsBox1 {
 
-    background-color: brown;
-   }
-
-#optionsBox2 {
-    background-color: purple;
-   }
-
-#optionsBox3 {
-    background-color: pink;
-   }
-
-#optionsBox4 {
-    background-color: fuchsia;
-    
-}
 #yourCharacterHeading {
     font-size: 30px;
     color: red;
@@ -184,6 +169,10 @@ body {
 }
 
 #winMessage {
+    display: none;
+}
+
+#restartButton {
     display: none;
 }
 
